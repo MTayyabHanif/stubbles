@@ -5,6 +5,6 @@ const fields = {
   last: 'Lamprecht'
 }
 
-const compiled = stubbles.compile('{{first}} {{last}}', fields)
+const compiled = stubbles.compile('{{first}} {{/last}}', fields)
 
 console.log(compiled)
