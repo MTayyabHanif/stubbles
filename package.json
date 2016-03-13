@@ -6,6 +6,9 @@
   "scripts": {
     "start": "nodemon example"
   },
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leo/stubbles.git"
