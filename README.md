@@ -15,5 +15,7 @@ Because of this, you don't necessarily need to use it to compile your HTML. You 
 ### Block variable
 
 ```mustache
-{{#helper}}Test{{/helper}}
+{{#helper}}
+  Test
+{{/helper}}
 ```
