@@ -4,9 +4,8 @@ This package aims to do provide a simpler and much more abstract implementation 
 
 Because of this, you don't necessarily need to use it to compile your HTML. You can use it for whatever you like! As long it's a string, stubbles will be fine with it!
 
-## Syntax
 
-### Variables
+## Variables
 
 This is the core concept behind stubbles.
 
@@ -16,7 +15,7 @@ This is the core concept behind stubbles.
 {{helper}}
 ```
 
-#### Block variable
+### Block variable
 
 ```mustache
 {{#helper}}
@@ -26,10 +25,10 @@ This is the core concept behind stubbles.
 
 ## Variable types
 
-Feel free to use any character you want in position of `&`. Stubbles will check the list of variable types and if there's a function assigned to that certain character, it will use it to handle the variable.
+Feel free to use any character you want in position of `>` . Stubbles will check the list of variable types and if there's a function assigned to that certain character, it will use it to handle the variable.
+
+Just make sure that it's not `#` or `/`.
 
 ```mustache
-{{#helper}}
-  Hi mum!
-{{/helper}}
+{{>helper}}
 ```
