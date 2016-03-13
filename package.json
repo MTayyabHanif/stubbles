@@ -1,6 +1,6 @@
 {
   "name": "stubbles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimal templating language inspired by Handlebars",
   "main": "index.js",
   "scripts": {
