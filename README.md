@@ -16,6 +16,6 @@ Because of this, you don't necessarily need to use it to compile your HTML. You 
 
 ```mustache
 {{#helper}}
-  Test
+  Hi mum!
 {{/helper}}
 ```
