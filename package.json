@@ -1,0 +1,25 @@
+{
+  "name": "stubbles",
+  "version": "1.0.0",
+  "description": "Minimal templating language inspired by Handlebars",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leo/stubbles.git"
+  },
+  "keywords": [
+    "template",
+    "language",
+    "handlebars",
+    "mustache"
+  ],
+  "author": "Leonard Lamprecht <mindrun@icloud.com> (http://leo.im)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leo/stubbles/issues"
+  },
+  "homepage": "https://github.com/leo/stubbles#readme"
+}
