@@ -6,13 +6,27 @@ Because of this, you don't necessarily need to use it to compile your HTML. You 
 
 ## Syntax
 
-### Variable
+### Variables
+
+This is the core concept behind stubbles.
+
+#### Regular variable
 
 ```mustache
 {{helper}}
 ```
 
-### Block variable
+#### Block variable
+
+```mustache
+{{#helper}}
+  Hi mum!
+{{/helper}}
+```
+
+## Variable types
+
+Feel free to use any character you want in position of `&`. Stubbles will check the list of variable types and if there's a function assigned to that certain character, it will use it to handle the variable.
 
 ```mustache
 {{#helper}}
